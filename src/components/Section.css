@@ -1,0 +1,53 @@
+.section2 {
+    display: flex;
+    justify-content: center;
+    background-color: #D3D9D4;
+    text-align: center;
+}
+.top-left {
+    /* Group 23 */
+
+position: absolute;
+width: 44.12px;
+height: 54px;
+left: 520px;
+top: 90px;
+
+
+  }
+  .bottom-right {
+    position: absolute;
+    top: 330px; 
+    left: 850px;
+    height: 54px;
+    width: 44.12px;
+  }
+
+
+.box1, .box2 {
+    height: 500px;
+    width: 430px;
+    padding-top: 100px; /* Added the missing semicolon */
+}
+.box1 h1 {
+    color: #124E66; /* Added the missing '#' */
+    text-align: left;
+}
+.box1 h1  span {
+    color: #124E66; /* Added the missing '#' */
+    font-weight: 350;
+}
+
+.box2  span{
+    font-weight: bold;
+    color: #212A31 /* Added the missing '#' */
+}
+.box2  p{
+    font-weight:400;
+    color: #212A31; /* Added the missing '#' */
+    text-align: left;
+}
+
+.box2{
+    padding-top:150px;
+}
